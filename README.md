@@ -1,10 +1,6 @@
-### Hi there 👋
-
 <!--
 **Nauorac/Nauorac** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
 Here are some ideas to get you started:
-
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
 - 👯 I’m looking to collaborate on ...
@@ -14,9 +10,9 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+<br>
 
-https://github-readme-stats.vercel.app/api/top-langs/?username={nauorac}&theme=blue-green
-
+### Hi there 👋
 <br>
 
 # 👦 About me
@@ -26,8 +22,11 @@ My favorite fields are software development, computer graphics, web development 
 
 <br>
 
-# 📚 Skills
+![Nauorac's GitHub stats](https://github-readme-stats.vercel.app/api?username=nauorac&show_icons=true) [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nauorac&layout=compact)](https://github.com/nauorac/github-readme-stats)
 
+<br>
+
+# 📚 Skills
 <table align="center">
 	<thead>
 		<tr>
@@ -40,10 +39,12 @@ My favorite fields are software development, computer graphics, web development 
 		</tr>
 	</thead>
 	<tbody>
-		<tr colspan="6"></tr>
+		<tr>
+			<td></td>
+			<td></td>
+		</tr>
 	</tbody>
 </table>
-
 <br>
 
 # 📭 Contact
