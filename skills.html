@@ -1,0 +1,235 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Progress Bar</title>
+        <script src="https://kit.fontawesome.com/3852631db4.js" crossorigin="anonymous"></script>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+
+        <style>
+            .list-group {
+                width: 20%;
+                 background-color: #f1f1f1;
+                border-radius: 5px;
+                padding: 5px;
+            }
+        </style>    
+    </head>
+<body>
+
+<!-- LANGUAGES -->
+<i class="fa-regular fa-square-check"></i>
+<i class="fa-regular fa-square"></i>
+<i class="fa-regular fa-circle-check"></i>
+<i class="fa-regular fa-circle"></i>
+<!-- WEB -->
+<!-- FRONT-END -->
+<!-- HTML -->
+<div id="html">
+    <img src="https://img.shields.io/badge/-HTML-000000?style=flat&logo=HTML5&logoColor=E34F26" alt="HTML" />
+    <ul>
+        <li>Fundamentals </li>
+        <li>Canvas</li>
+        <li>Audio</li>
+        <li>Video</li>
+        <li>Drag & Drop</li>
+        <li>Web Storage</li>
+        <li>Web Workers</li>
+        <li>Web Sockets</li>
+        <li>Web SQL</li>
+        <li>Web Messaging</li>
+        <li>Web Components</li>
+        <li>Geolocation</li>
+    </ul>
+</div>
+
+<div class="container mt-3">
+    <h2>List Group With Badges</h2>
+    <p>Combine .badge classes with utility/helper classes to add badges inside the list group:</p>
+    <ul class="list-group">
+        <li class="list-group-item d-flex justify-content-between align-items-center fa-regular fa-square-check">
+            Inbox
+            <span class="badge bg-primary rounded-pill">12</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center disabled fa-regular fa-square">
+            Ads
+            <span class="badge bg-primary rounded-pill">50</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center fa-regular fa-square-check">
+            Junk
+            <span class="badge bg-primary rounded-pill">99</span>
+        </li>
+    </ul>
+</div>
+
+<div class="container mt-4">
+    <h2>Linked Items With Contextual Classes</h2>
+    <p>Move the mouse over the linked items to see the hover effect:</p>
+    <div class="list-group">
+        <a href="#" class="list-group-item list-group-item-action">Action item</a>
+        <a href="#" class="list-group-item list-group-item-action list-group-item-success">Success item</a>
+        <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">Secondary item</a>
+        <a href="#" class="list-group-item list-group-item-action list-group-item-info">Info item</a>
+        <a href="#" class="list-group-item list-group-item-action list-group-item-warning">Warning item</a>
+        <a href="#" class="list-group-item list-group-item-action list-group-item-danger">Danger item</a>
+        <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Primary item</a>
+        <a href="#" class="list-group-item list-group-item-action list-group-item-dark">Dark item</a>
+        <a href="#" class="list-group-item list-group-item-action list-group-item-light">Light item</a>
+    </div>
+</div>
+
+<div class="container mt-5">
+    <h2>List Group With Contextual Classes</h2>
+    <ul class="list-group">
+        <li class="list-group-item list-group-item-success">Success item</li>
+        <li class="list-group-item list-group-item-secondary">Secondary item</li>
+        <li class="list-group-item list-group-item-info">Info item</li>
+        <li class="list-group-item list-group-item-warning">Warning item</li>
+        <li class="list-group-item list-group-item-danger">Danger item</li>
+        <li class="list-group-item list-group-item-primary">Primary item</li>
+        <li class="list-group-item list-group-item-dark">Dark item</li>
+        <li class="list-group-item list-group-item-light">Light item</li>
+    </ul>
+</div>
+
+<!-- CSS -->
+<!-- 
+<div id="css">
+    <img src="https://img.shields.io/badge/-CSS-000000?style=flat&logo=CSS3&logoColor=1572B6" alt="CSS" />
+    <ul>
+        <li>CSS3 Fundamentals</li>
+        <li>CSS3 Selectors</li>
+        <li>CSS3 Media Queries</li>
+        <li>CSS3 Flexbox</li>
+        <li>CSS3 Grid</li>
+        <li>CSS3 Transitions</li>
+        <li>CSS3 Animations</li>
+        <li>CSS3 2D Transforms</li>
+        <li>CSS3 3D Transforms</li>
+        <li>CSS3 Box Sizing</li>
+        <li>CSS3 Box Shadow</li>
+        <li>CSS3 Border Radius</li>
+        <li>CSS3 Text Shadow</li>
+        <li>CSS3 Opacity</li>
+        <li>CSS3 RGBA</li>
+        <li>CSS3 HSLA</li>
+        <li>CSS3 Gradients</li>
+        <li>CSS3 Multiple Backgrounds</li>
+        <li>CSS3 User Interface</li>
+        <li>CSS3 Columns</li>
+        <li>CSS3 Text Effects</li>
+        <li>CSS3 Text Overflow</li>
+        <li>CSS3 Text Wrap</li>
+        <li>CSS3 Line Clamping</li>
+        <li>CSS3 Font Face</li>
+        <li>CSS3 @font-face</li>
+        <li>CSS3 Web Fonts</li>
+        <li>CSS3 @import</li>
+        <li>CSS3 Pseudo-classes</li>
+        <li>CSS3 Pseudo-elements</li>
+        <li>CSS3 Attribute Selectors</li>
+        <li>CSS3 Sizing</li>
+        <li>CSS3 Units</li>
+        <li>CSS3 Values and Units</li>
+        <li>CSS3 Box Model</li>
+        <li>CSS3 Display</li>
+        <li>CSS3 Positioning</li>
+        <li>CSS3 Overflow</li>
+        <li>CSS3 Float</li>
+        <li>CSS3 Clear</li>
+        <li>CSS3 Z-index</li>
+        <li>CSS3 Navigation Bar</li>
+        <li>CSS3 Image Gallery</li>
+        <li>CSS3 Image Sprites</li>
+        <li>CSS3 Image Rollovers</li>
+        <li>CSS3 Image Opacity</li>
+        <li>CSS3 Image Border</li>
+        <li>CSS3 Image Rounded Corners</li>
+        <li>CSS3 Image Shadow</li>
+
+</div>
+-->
+<!-- JAVASCRIPT -->
+<!--
+<div id="js">
+    <img src="https://img.shields.io/badge/-JavaScript-000000?style=flat&logo=javascript" alt="JavaScript" />
+    <ul>
+        <li>JavaScript Fundamentals</li>
+        <li>JavaScript Data Types</li>
+        <li>JavaScript Operators</li>
+        <li>JavaScript Variables</li>
+        <li>JavaScript Conditionals</li>
+        <li>JavaScript Loops</li>
+        <li>JavaScript Functions</li>
+        <li>JavaScript Objects</li>
+        <li>JavaScript Arrays</li>
+        <li>JavaScript Strings</li>
+        <li>JavaScript Numbers</li>
+        <li>JavaScript Dates</li>
+        <li>JavaScript Math</li>
+        <li>JavaScript Regular Expressions</li>
+        <li>JavaScript Errors</li>
+        <li>JavaScript Debugging</li>
+        <li>JavaScript DOM</li>
+        <li>JavaScript DOM Events</li>
+        <li>JavaScript DOM HTML</li>
+        <li>JavaScript DOM CSS</li>
+        <li>JavaScript DOM Traversing</li>
+        <li>JavaScript DOM Animations</li>
+        <li>JavaScript DOM Window</li>
+        <li>JavaScript DOM Forms</li>
+        <li>JavaScript DOM Validation</li>
+        <li>JavaScript DOM Selectors</li>
+        <li>JavaScript DOM Nodes</li>
+        <li>JavaScript DOM Navigation</li>
+        <li>JavaScript DOM Manipulation</li>
+        <li>JavaScript DOM Events</li>
+        <li>JavaScript DOM Event Listeners</li>
+        <li>JavaScript DOM Event Propagation</li>
+        <li>JavaScript DOM Event Bubbling</li>
+        <li>JavaScript DOM Event Capturing</li>
+        <li>JavaScript DOM Event Delegation</li>
+        <li>JavaScript DOM Event Object</li>
+        <li>JavaScript DOM Event Target</li>
+        <li>JavaScript DOM Event Prevent Default</li>
+        <li>JavaScript DOM Event Stop Propagation</li>
+        <li>JavaScript DOM Event Stop Immediate Propagation</li>
+        <li>JavaScript DOM Event Stop Bubbling</li>
+        <li>JavaScript DOM Event Stop Capturing</li>
+        <li>JavaScript DOM Event Stop Delegation</li>
+        <li>JavaScript DOM Event Stop Default</li>
+</div>
+-->
+<!-- BACK-END -->
+<!-- JAVA -->
+<!-- PYTHON -->
+<!-- SQL -->
+<!-- PHP -->
+
+<!-- DESIGN -->
+<!-- ILLUSTRATOR -->
+<!-- PHOTOSHOP -->
+<!-- FIGMA -->
+
+<!-- FRAMEWORKS -->
+<!-- KERAS -->
+<!-- THREEJS -->
+<!-- IMGUI -->
+<!-- ANIMEJS -->
+<!-- GREENSOCK -->
+<!-- GLM -->
+
+<!-- TOOLS -->
+<!-- GIT -->
+
+<!-- SOFTWARE DEVELOPMENT -->
+<!-- C -->
+<!-- C++ -->
+<!-- C# -->
+<!-- RUST -->
+
+</body>
+</html>
